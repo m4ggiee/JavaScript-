@@ -1,10 +1,10 @@
 //1
-let name = prompt(" What's your name?");
-let greet = alert (`Hello, ${name}! How are you? `);
+let name = prompt(" What's your name?"); 
+alert(`Hello, ${name}! How are you? `);
 
 //2
-let number1 = prompt(`Введіть 1 число:`);
-let number2 = prompt(`Введіть 2 число:`);
+let number1 = parseInt(prompt('Enter first digit'));
+let number2 = parseInt(prompt('Enter first digit'));
 console.log(number1 + number2);
 
 let number0 = prompt(`Введіть 1 число:`);
@@ -26,9 +26,9 @@ let comparison2 = prompt(`Enter the second value you want to compare:`);
 console.log(comparison1 === comparison2);
 
 //4
-let num1 = (`Число №1:`);
-let num2 = (`Число №2:`);
-let num3 = (`Число №3:`);
+let num1 = prompt(`Число №1:`);
+let num2 = prompt(`Число №2:`);
+let num3 = prompt(`Число №3:`);
 
 console.log((num1+num2+num3)/3);
 
@@ -38,16 +38,16 @@ let firstDigit = num % 10;
 let secondDigit = num / 10;
 secondDigit = parseInt (secondDigit);
 let thirdDigit = secondDigit % 10;
-let Digit4 = secondDigit /10; 
-Digit4 = parseInt (Digit4);
-let Digit5 = Digit4 % 10;
-let Digit6 = Digit4 / 10;
-Digit6 = parseInt (Digit6);
-let Digit7 = Digit6 % 10;
-let Digit8 = Digit6 / 10;
-Digit8 = parseInt (Digit8);
-let lastDigit = Digit8 %10;
-console.log(lastDigit, Digit7, Digit5, thirdDigit, firstDigit);
+let digit4 = secondDigit /10; 
+digit4 = parseInt (digit4);
+let digit5 = digit4 % 10;
+let digit6 = digit4 / 10;
+digit6 = parseInt (digit6);
+let digit7 = digit6 % 10;
+let digit8 = digit6 / 10;
+digit8 = parseInt (digit8);
+let lastDigit = digit8 %10;
+console.log(lastDigit, digit7, digit5, thirdDigit, firstDigit);
 
 
 
