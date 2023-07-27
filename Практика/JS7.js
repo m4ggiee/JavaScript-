@@ -10,7 +10,7 @@ let num1 = digit4 % 10;
 num1 = parseInt (num1);
 console.log(num1, num2, num3)
 
-if(num1 == num2, num1 == num3, num2 == num3){
+if(num1 == num2 && num1 == num3 && num2 == num3){
     console.log(`Так, всі цифри однакові`);
 } else{
     console.log(`Ні, цифри не однакові`);

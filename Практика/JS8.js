@@ -19,7 +19,7 @@ let num1 = digit1 % 10;
 
 console.log(num1, num2, num3, num4, num5, num6);
 
-if(num1==num6, num2==num5, num3==num4){
+if(num1==num6 && num2==num5 && num3==num4){
     console.log(`Задане число ${num} є дзеркальним`);
 } else{
     console.log(`Задане число ${num} НЕ є дзеркальним`);

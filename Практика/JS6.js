@@ -12,19 +12,22 @@ console.log(num1, num2, num3)
 
 console.log(num1, num2, num3);
 
-if((num1+num2+num3)%2==0){
+let sum = num1+num2+num3;
+let multiply = num1*num2*num3;
+
+if(sum%2==0){
    console.log(`сумма цифр є парна`);
 } else{
     console.log(`сумма цифр не є парна`);
 }
 
-if((num1+num2+num3)%5==0){
+if(sum%5==0){
     console.log(`сумма цифр є кратна 5`);
  } else{
      console.log(`сумма цифр не є кратна 5`);
 }
 
-if((num1*num2*num3)>100){
+if(multiply>100){
     console.log(`добуток цифр більше 100`);
  } else{
      console.log(`добуток цифр менше 100`);
